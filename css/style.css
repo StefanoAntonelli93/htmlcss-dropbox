@@ -6,14 +6,13 @@
 
 header {
     width: 100%;
-    background-color: gray;
-    height: 100px;
-    padding: 15px;
+    background-color: white;
 }
 
 body {
     width: 100%;
     background-color: lightpink;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 
@@ -75,10 +74,8 @@ footer {
 }
 
 .col-30 {
-    background-color: blue;
     width: 30%;
-    height: 70px;
-    border: 1px solid black;
+
 }
 .col-33 {
     background-color: aqua;
@@ -121,10 +118,41 @@ footer {
     display: flex;
 }
 
+.justify-right {
+    justify-content: right;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+
 /* FINE CLASSI DI UTILITY */
 
 
 /* CLASSI DI STILE */
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+.unstyled-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+
+.btn-blue {
+    background-color: rgb(18, 125, 255);
+    border: none;
+    color: white;
+    padding: 5px 14px;
+    font-family: "Hanken Grotesk", sans-serif;;
+
+    font-size: 16px;
+}
 
 /* FINE CLASSI DI STILE */
 
