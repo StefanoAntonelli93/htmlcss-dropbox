@@ -47,6 +47,10 @@ body {
     margin: 0 auto;
     
 }
+.container-xl {
+    width: 100%;
+    background-color: lightsalmon;
+}
 
 
 .col-30 {
