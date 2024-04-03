@@ -63,7 +63,7 @@ footer {
     height: 800px;
     background-color: aqua;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .col-20 {
@@ -86,7 +86,7 @@ footer {
 .col-40 {
     background-color: yellow;
     width: 40%;
-    height: 300px;
+    height: 400px;
     border: 1px solid black;
 }
 
@@ -126,6 +126,10 @@ footer {
     justify-content: left;
 }
 
+.margin-bottom-70 {
+    /* margini tra div */
+}
+
 
 /* FINE CLASSI DI UTILITY */
 
@@ -150,7 +154,6 @@ li a {
     color: white;
     padding: 5px 14px;
     font-family: "Hanken Grotesk", sans-serif;;
-
     font-size: 16px;
 }
 
