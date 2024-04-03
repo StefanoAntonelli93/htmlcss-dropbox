@@ -51,7 +51,7 @@ footer {
 }
 .container-xl {
     width: 100%;
-    background-color: lightsalmon;
+    background-color:lightskyblue;
 }
 
 .footer-contain {
@@ -130,9 +130,6 @@ footer {
     background-color: lightgreen;
 }
 
-
-
-
 .justify-space-beetwen {
     justify-content: space-between;
 }
@@ -148,7 +145,9 @@ footer {
 .justify-left {
     justify-content: left;
 }
-
+.align-items-center{
+    align-items: center;
+}
 .margin-top-30 {
     margin: 30px 0 0 0;
 }
@@ -160,6 +159,12 @@ footer {
 }
 .padding-right-80 {
     padding-right: 80px;
+}
+.py-right-60 {
+    padding-right: 60px;
+}
+.py-right-150 {
+    padding-right: 150px;
 }
 .py-right-300 {
     padding: 40px 300px 0 0;
@@ -178,6 +183,9 @@ footer {
 }
 .py-60 {
     padding: 60px;
+}
+.margin-250 {
+    margin: 250px 0 50px 0;
 }
 
 .py-top-20 {
@@ -212,6 +220,16 @@ footer {
 .margin-bottom-20 {
     margin-bottom: 20px;
 }
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+.margin-bottom-150 {
+    margin-bottom: 150px;
+}
+.red {
+    color: rgb(124, 44, 44);
+}
+
 
 /* FINE CLASSI DI UTILITY */
 
@@ -298,6 +316,13 @@ h2 {
 }
 .img-partner {
     width: 100%;
+}
+.img-dropbox-business {
+    width: 100%;
+}
+.h2-red {
+    font-size: 40px;
+    font-weight: 800;
 }
 /* FINE CLASSI DI STILE */
 
