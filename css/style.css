@@ -11,7 +11,6 @@ header {
 
 body {
     width: 100%;
-    background-color: lightpink;
     font-family: "Hanken Grotesk", sans-serif;
 }
 
@@ -76,10 +75,11 @@ footer {
 
 }
 .col-33 {
-    background-color: aqua;
+  
     width: 33%;
+    background-color: aqua;
+    border: 1px solid gray;
     height: 800px;
-    border: 1px solid black;
 }
 .col-40 {
     
@@ -129,7 +129,7 @@ footer {
 }
 
 .bg-blue {
-    background-color: blue;
+    background-color: lightskyblue;
 }
 
 .bg-green {
@@ -162,6 +162,38 @@ footer {
     padding-right: 80px;
 }
 
+.text-align-center {
+    text-align: center;
+}
+.margin {
+    margin: 0 30px;
+}
+.py-40 {
+    padding: 0 40px;
+}
+
+.py-top-20 {
+    padding: 20px 0 0 0;
+}
+.py-top-10 {
+    padding: 10px 0 0 0;
+}
+.py-top-40 {
+    padding: 40px 0 0 0;
+}
+
+
+.vertical-align-middle {
+    vertical-align: middle;
+}
+
+.margin-btn {
+    margin: 40px 20px 30px 20px;
+}
+
+.margin-radio {
+    margin: 40px 0;
+}
 
 /* FINE CLASSI DI UTILITY */
 
@@ -203,6 +235,30 @@ li a {
 }
 h2 {
     font-size: 40px;
+    font-weight: 800;
+    margin-top: 150px;
+}
+
+.business-plane {
+    font-size: 25px;
+    font-weight: 700;
+}
+.prize {
+    font-weight: 800;
+}
+.time {
+    color: gray;
+}
+.punti-salienti {
+    font-weight: 800;
+}
+.hr-middle {
+    width: 40px;
+    color: gray;
+    margin: 30px 0;
+}
+.check-blue {
+    color: rgb(18, 125, 255);
     font-weight: 800;
 }
 /* FINE CLASSI DI STILE */
