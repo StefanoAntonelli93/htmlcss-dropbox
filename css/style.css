@@ -59,7 +59,7 @@ footer {
     height: 800px;
     background-color: aqua;
     margin: 0 auto;
-    padding: 50px 0;
+    
 }
 
 .col-20 {
@@ -237,6 +237,10 @@ footer {
 .min-height {
     min-height: 934.6px;;
 }
+.inline-block {
+    display: inline-block;
+}
+
 
 /* .white-space {
     white-space: nowrap;
@@ -258,6 +262,10 @@ li a {
     align-items: center;
     gap: 30px;
     padding: 20px;
+}
+
+.unstyled-list-33 {
+    list-style-type: none;
 }
 
 .btn-blue {
@@ -344,8 +352,21 @@ h2 {
 .FAQ {
     list-style-type: none;
 }
+
+.FAQ li {
+    padding: 30px 0;
+    font-weight: 700;
+    display: inline-block;
+}
 hr {
     border: 1px solid lightgray;
 }
+.FAQ > span {
+    color: black;
+    position: absolute;
+    right: 30px;
+    margin-top: 30px;
+}
+
 /* FINE CLASSI DI STILE */
 
