@@ -91,6 +91,16 @@ footer {
     width: 100%;
     
 }
+.square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+  
+}
+
+.square-sm {
+    height: 50%;
+    width: 50%;
+}
 
 /* FINE CLASSI LAYOUT */
 
@@ -123,7 +133,28 @@ footer {
 }
 
 .bg-green {
-    background-color: lightgreen;
+    background-color: rgb(122, 225, 122);
+}
+.bg-light-green {
+    background-color: rgb(200, 255, 200);
+}
+.bg-scarlett {
+    background-color: rgb(83, 24, 24);
+}
+.bg-dark-blue {
+    background-color: rgb(22, 22, 93);
+}
+.bg-light-blue {
+    background-color: rgb(30, 131, 255);
+}
+.bg-red-shock {
+    background-color: rgb(255, 21, 0);
+}
+.bg-red{
+    background-color: rgb(148, 0, 0);
+}
+.bg-light-gray {
+    background-color: rgb(240, 240, 240);
 }
 
 .justify-space-beetwen {
@@ -132,6 +163,9 @@ footer {
 
 .d-flex {
     display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
 }
 
 .justify-right {
@@ -201,7 +235,7 @@ footer {
 }
 
 .py-prova-gratuita {
-    padding: 80px 80px 80px 0;
+    padding: 120px 80px 120px 0;
 }
 
 
@@ -393,6 +427,25 @@ h3 {
     font-size: 25px;
     margin-bottom: 10px;
     margin-top: 40px;
+}
+.logo {
+   width: 50%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.square-py {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img.logo{
+    filter: invert(100%);
 }
 /* FINE CLASSI DI STILE */
 
