@@ -366,6 +366,10 @@ h2 {
     color: gray;
     margin: 30px 0;
 }
+.hr-designit {
+    width: 90px;
+    margin: 40px 0;
+}
 .check-blue {
     color: rgb(18, 125, 255);
     font-weight: 800;
@@ -446,6 +450,9 @@ h3 {
 }
 img.logo{
     filter: invert(100%);
+}
+.logo-xl {
+    width: 60%;
 }
 /* FINE CLASSI DI STILE */
 
