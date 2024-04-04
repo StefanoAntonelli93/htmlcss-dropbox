@@ -69,13 +69,13 @@ footer {
     border: 1px solid black;
 }
 
-.col-30 {
-    width: 30%;
+.col-50 {
+    width: 50%;
 
 }
 .col-33 {
   
-    width: 33%;
+    width: calc(33% - 20px)
     
 }
 .col-40 {
@@ -209,7 +209,7 @@ footer {
 }
 
 .margin-btn {
-    margin: 40px 20px 30px 20px;
+    margin: 40px 0px 30px 0px;
 }
 
 .margin-radio {
@@ -220,7 +220,7 @@ footer {
     position: relative;
 }
 .border {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 .margin-bottom-20 {
     margin-bottom: 20px;
@@ -234,6 +234,13 @@ footer {
 .red {
     color: rgb(124, 44, 44);
 }
+.min-height {
+    min-height: 922.383px;;
+}
+
+/* .white-space {
+    white-space: nowrap;
+} */
 
 
 /* FINE CLASSI DI UTILITY */
@@ -257,7 +264,7 @@ li a {
     background-color: rgb(18, 125, 255);
     border: none;
     color: white;
-    padding: 5px 14px;
+    padding: 8px 14px;
     font-family: "Hanken Grotesk", sans-serif;;
     font-size: 16px;
 }
@@ -328,6 +335,17 @@ h2 {
 .h2-red {
     font-size: 40px;
     font-weight: 800;
+}
+.btn-radio {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.FAQ {
+    list-style-type: none;
+}
+hr {
+    border: 1px solid lightgray;
 }
 /* FINE CLASSI DI STILE */
 
